@@ -1,0 +1,36 @@
+time python ~/cse3000-how-to-break-a-solver/SharpVelvet/src/generate_instances.py -n 1000 --generators ~/cse3000-how-to-break-a-solver/SharpVelvet/tool-config/generator_1000_DQMR.json
+7883384363233614645
+real    5m7.451s
+user    9m34.524s
+sys     19m3.621s
+
+
+
+time python ~/cse3000-how-to-break-a-solver/SharpVelvet/src/generate_instances.py -n 1000 --generators ~/cse3000-how-to-break-a-solver/SharpVelvet/tool-config/generator_1000_GRID.json
+9837508148452730510
+real    5m7.373s
+user    9m39.677s
+sys     18m58.386s
+
+
+
+time python ~/cse3000-how-to-break-a-solver/SharpVelvet/src/generate_instances.py -n 1000 --generators ~/cse3000-how-to-break-a-solver/SharpVelvet/tool-config/generator_1000_TREE.json
+1870883621163886177
+real    4m30.517s
+user    9m0.039s
+sys     18m55.316s
+
+
+
+time python ~/cse3000-how-to-break-a-solver/SharpVelvet/src/generate_instances.py -n 1000 --generators ~/cse3000-how-to-break-a-solver/SharpVelvet/tool-config/generator_1000_biere.json
+1452119974387263935
+real    0m1.666s
+user    0m1.942s
+sys     0m1.302s
+
+
+time python ~/cse3000-how-to-break-a-solver/SharpVelvet/src/generate_instances.py -n 1000 --generators ~/cse3000-how-to-break-a-solver/SharpVelvet/tool-config/generator_1000_brummayer.json
+2497003853756335855
+real    0m23.989s
+user    0m20.708s
+sys     0m4.989s
