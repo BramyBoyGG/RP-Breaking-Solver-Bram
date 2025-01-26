@@ -1,0 +1,14 @@
+{
+  "EXTREMEgen_DQMR_set1": {
+      "path":"/home/delft/cse3000-how-to-break-a-solver/SharpVelvet/generators/bram_generator/EXTREMEgen.sh",
+      "config":"DQMR {seed} 1 250 250 > {out_file}"
+  },
+  "EXTREMEgen_GRID_set1": {
+      "path":"/home/delft/cse3000-how-to-break-a-solver/SharpVelvet/generators/bram_generator/EXTREMEgen.sh",
+      "config":"GRID {seed} 1 22 > {out_file}"
+  },
+  "EXTREMEgen_TREE_set1": {
+      "path":"/home/delft/cse3000-how-to-break-a-solver/SharpVelvet/generators/bram_generator/EXTREMEgen.sh",
+      "config":"TREE {seed} 1 500 4 > {out_file}"
+  }
+}

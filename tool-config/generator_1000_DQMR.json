@@ -1,0 +1,6 @@
+{
+  "EXTREMEgen_DQMR_set1": {
+      "path":"/home/delft/cse3000-how-to-break-a-solver/SharpVelvet/generators/bram_generator/EXTREMEgen.sh",
+      "config":"DQMR {seed} 2 250 250 > {out_file}"
+  }
+}

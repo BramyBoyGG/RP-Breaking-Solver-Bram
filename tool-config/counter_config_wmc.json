@@ -1,0 +1,29 @@
+{
+  "gpmc": {
+    "path": "/home/delft/cse3000-how-to-break-a-solver/bins/Track2_WMC_Bonus/gpmc-wmc/bin/gpmc",
+    "config": "-mode=1",
+    "exact": "True"
+  },
+  "ganak-conf-1": {
+    "path": "/home/delft/cse3000-how-to-break-a-solver/bins/Track2_WMC_Bonus/ganak-allconfigsv22-negweight/bin/ganak",
+    "config": "--verb 0 --bveresolvmaxsz 12 --maxcache=16000 --sbva 1 --sbvalitcut 6 --tdminw 5 --tdmaxw 50 --arjunoraclefindbins 4 --rdbclstarget 10000",
+    "exact": "True"
+  },
+  "ganak-conf-2": {
+    "path": "/home/delft/cse3000-how-to-break-a-solver/bins/Track2_WMC_Bonus/ganak-allconfigsv22-negweight/bin/ganak",
+    "config": "--verb 0 --bveresolvmaxsz 12 --precise 0 --maxcache=16000 --sbva 1 --sbvalitcut 6 --tdminw 5 --tdmaxw 50 --arjunoraclefindbins 4 --rdbclstarget 10000",
+    "exact": "True"
+  },
+  "SharpSAT-TD-weighted": {
+    "path": "/home/delft/cse3000-how-to-break-a-solver/bins/Track2_WMC_Bonus/SharpSAT-TD-weighted/bin/weighted.sh",
+    "config": "--tmpdir=tmp_dir --maxrss=8 --maxtmp=1 --timeout=1800 --task=wmc",
+    "exact": "True"
+  },
+  "SharpSATTD-CH-weighted": {
+    "path": "/home/delft/cse3000-how-to-break-a-solver/bins/Track2_WMC_Bonus/SharpSATTD-CH-weighted/bin/weighted.sh",
+    "config": "--tmpdir=tmp_dir --maxrss=8 --maxtmp=1 --timeout=1800 --task=wmc",
+    "exact": "True"
+  }
+}
+
+

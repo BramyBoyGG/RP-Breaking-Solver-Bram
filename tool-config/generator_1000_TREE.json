@@ -1,0 +1,6 @@
+{
+  "EXTREMEgen_TREE_set1": {
+      "path":"/home/delft/cse3000-how-to-break-a-solver/SharpVelvet/generators/bram_generator/EXTREMEgen.sh",
+      "config":"TREE {seed} 2 500 4 > {out_file}"
+  }
+}

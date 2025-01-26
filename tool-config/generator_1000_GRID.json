@@ -1,0 +1,6 @@
+{
+  "EXTREMEgen_GRID_set1": {
+      "path":"/home/delft/cse3000-how-to-break-a-solver/SharpVelvet/generators/bram_generator/EXTREMEgen.sh",
+      "config":"GRID {seed} 2 22 > {out_file}"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "biere-mc": {
+      "path":"/home/delft/cse3000-how-to-break-a-solver/SharpVelvet/generators/biere-fuzz",
+      "config":"{seed} 0 > {out_file}"
+  }
+}
