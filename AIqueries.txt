@@ -1,0 +1,76 @@
+Query1:
+Please format the following data for me in a normal latex table
+CNFuzz and FuzzSAT, 200 total instances
+                        Timeout  Wsat  Wsum
+gpmc                          0     0     0
+ganak-conf-1                  0     0     0
+ganak-conf-2                  0     0     0
+
+set 1, 300 total instances
+                        Timeout  Wsat  Wsum
+gpmc                         91   183   183
+ganak-conf-1                  0     0   183
+ganak-conf-2                  0     0   183
+SharpSAT-TD-weighted          0     0   183
+SharpSATTD-CH-weighted        0     0   183
+
+set 2, 300 total instances
+                        Timeout  Wsat  Wsum
+gpmc                        101   174   174
+ganak-conf-1                  0     0   174
+ganak-conf-2                  0     0   174
+SharpSAT-TD-weighted          0     0   174
+SharpSATTD-CH-weighted        0     0   174
+
+Answer1:
+% Table for CNFuzz and FuzzSAT, 200 total instances
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Algorithm} & \textbf{Timeout} & \textbf{Wsat} & \textbf{Wsum} \\
+\hline
+gpmc & 0 & 0 & 0 \\
+ganak-conf-1 & 0 & 0 & 0 \\
+ganak-conf-2 & 0 & 0 & 0 \\
+\hline
+\end{tabular}
+\caption{Bugs exposed through SharpVelvet-CNFuzz and SharpVelvet-FuzzSAT instances. 200 total instances.}
+\label{svbbresults_exp1}
+\end{table}
+
+% Table for Set 1, 300 total instances
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Algorithm} & \textbf{Timeout} & \textbf{Wsat} & \textbf{Wsum} \\
+\hline
+gpmc & 91 & 183 & 183 \\
+ganak-conf-1 & 0 & 0 & 183 \\
+ganak-conf-2 & 0 & 0 & 183 \\
+SharpSAT-TD-weighted & 0 & 0 & 183 \\
+SharpSATTD-CH-weighted & 0 & 0 & 183 \\
+\hline
+\end{tabular}
+\caption{Bugs exposed through EXTREMEgen DQMR, GRID, and TREE instances using weights from set 1. 300 total instances.}
+\label{extset1results_exp1}
+\end{table}
+
+% Table for Set 2, 300 total instances
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Algorithm} & \textbf{Timeout} & \textbf{Wsat} & \textbf{Wsum} \\
+\hline
+gpmc & 101 & 174 & 174 \\
+ganak-conf-1 & 0 & 0 & 174 \\
+ganak-conf-2 & 0 & 0 & 174 \\
+SharpSAT-TD-weighted & 0 & 0 & 174 \\
+SharpSATTD-CH-weighted & 0 & 0 & 174 \\
+\hline
+\end{tabular}
+\caption{Bugs exposed through EXTREMEgen DQMR, GRID, and TREE instances using weights from set 2. 300 total instances.}
+\label{extset2results_exp1}
+\end{table}
